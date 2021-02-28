@@ -48,8 +48,4 @@ Route::get('/about-us', [AboutController::class, 'aboutus']);
 // 6. Contact Us
 Route::get('/contact-us', [ContactController::class, 'contactus']);
 
-/*
-Route::get('/home', function () {
-    return view('blog.home', ['name' => 'Dandi Agung Setiawan']);
-})
-;
+});
